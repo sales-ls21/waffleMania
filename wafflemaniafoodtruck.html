@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Waffle Mania - Food Truck</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+        /* Necessary for full page carousel*/
+        
+        html,
+        body {
+            height: 100%;
+            background-color: #FFEF00;
+        }
+        /* Navigation*/
+        
+        .navbar {
+            background-color: black;
+        }
+        .navbar.navbar-dark .navbar-nav .nav-item a {
+            color:red;
+        }
+        .top-nav-collapse {
+            background-color: black;
+        }
+        
+        footer.page-footer {
+            background-color: black;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: black;
+            }
+        }
+        
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        /* Carousel*/
+        
+        .carousel {
+            height: 50%;
+        }
+        
+        @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+        }
+        
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+        
+        .carousel-inner {
+            height: 100%;
+        }
+        
+        /*Caption*/
+        
+        .flex-center {
+            color: #fff;
+        }
+         .card{
+            height: 75%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <strong>Waffle Mania</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#socialmedia" class="nav-link">Social Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="wafflemaniarestaurant.html" class="nav-link">Restaurant</a>
+                    </li>
+                </ul>
+                <form class="form-inline waves-effect waves-light">
+                    <input class="form-control" type="text" placeholder="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel" data-interval="false">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-3" data-slide-to="1"></li>
+            <li data-target="#carousel-example-3" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!-- First slide -->
+             <div class="carousel-item active view hm-black-light" style="background-image: url('http://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(11).jpg'); background-repeat: no-repeat; background-size: cover;">
+                
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Rated one of Memphis' Best</h1></li>
+                        <li>
+                            <p>Southern Fried Chicken and Golden Fluffy Waffles</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+                
+            </div>
+            <!--/.First slide-->
+
+            <!-- Second slide -->
+            <div class="carousel-item view hm-black-light" style="background-image: url('http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg'); background-repeat: no-repeat; background-size: cover;">
+                
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Rated one of Memphis' Best</h1>
+                        </li>
+                        <li>
+                            <p>Southern Fried Chicken and Golden Fluffy Waffles</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+                
+            </div>
+            <!--/.Second slide -->
+
+            <!-- Third slide -->
+            <div class="carousel-item view hm-black-light" style="background-image: url('http://mdbootstrap.com/img/Photos/Slides/img%20(97).jpg'); background-repeat: no-repeat; background-size: cover;">
+                
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Rated one of Memphis' Best</h1></li>
+                        <li>
+                            <p>Southern Fried Chicken and Golden Fluffy Waffles</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+                
+            </div>
+            <!--/.Third slide-->
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <br>
+
+    <!--Content-->
+    <div class="container" id="menu">
+        <div class="row">
+            <!--First columnn-->
+            <div class="col-lg-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="img/waffle/chickenNWaffle.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Chicken and Waffle Plates</h4>
+                        <!--Text-->
+                        <p class="card-text">Items that come with golden waffles and chicken</p>
+                        <a href="#" class="btn btn-danger">See more...</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+
+            <!--Second columnn-->
+            <div class="col-lg-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="img/waffle/wafflesandwich.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Hot Wings</h4>
+                        <!--Text-->
+                        <p class="card-text">Various Flavors</p>
+                        <a href="#" class="btn btn-danger">See more...</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-lg-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="http://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(122).jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Light dishes</h4>
+                        <!--Text-->
+                        <p class="card-text">Grab and Go</p>
+                        <a href="#" class="btn btn-danger">See more...</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+        </div>
+    </div>
+    <!--/.Content-->
+
+
+
+    <!--Footer-->
+   <footer class="page-footer center-on-small-only" id="location">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-lg-5 offset-lg-1 hidden-lg-down">
+                    <h5 class="title">ABOUT WAFFLE MANIA</h5>
+                    <p>Where we specialize in southern fried chicken and golden waffles! </p>
+
+                    <p>Started as a food truck and now we're here! Want to grab and go? Check out our <a href="wafflemaniafoodtruck.html"> FOOD TRUCK! </a></p>
+                <h4>Waffle Mania is Social!</h4>
+                <ul>
+                    <li><h5>Check us out on social media!</h5></li>
+                    <div class="row">
+                        <div class="col-md-5">
+                        <li><a target="_blank" href="https://www.facebook.com/WaffleMania901/" class="btn btn-danger"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> Like Us</a></li></div>
+                        <div class="col-md-5">
+                        <li><a target="_blank" href="https://www.instagram.com/waffle_mania901/?hl=en" class="btn btn-danger"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> Follow Us!</a></li></div>
+                    </div>
+                </ul>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="col-md-4 offset-lg-3">
+                        <h5 class="title">Find us!</h5>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14043.391854137251!2d-89.84242368007914!3d35.049497721013836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f9aa533e5a999%3A0x213e443aef4f5568!2s6712+Winchester+Rd%2C+Memphis%2C+TN+38115!5e0!3m2!1sen!2sus!4v1490213314851" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                Site Developed by: <a href="http://www.lscubed.net"> LSCUBED </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+</body>
+
+</html>
